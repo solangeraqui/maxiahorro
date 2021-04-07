@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+        $('.flexslider').flexslider();
+    });
+    </script>
+</head>
+<body>
+
+
+    <div class="header">
+        <div class="search">
+            <a href="#"><img class="micuenta" src="imagenes/micuenta.png"></a><br><br>
+            <div class="buscador">
+              <input type="text" size="12" required placeholder="Buscar"><br>
+                  <center><button class="bot1">Enviar</button></center>
+            </div>
+
+        </div>
+        <a href="index.html"><img id="maxi"  src="imagenes/cabezera.jpg"></a>
+
+    </div>
+
+    <div class="navbar">
+        <a href="index.html">INICIO</a>
+        <a href="Productos.html">PRODUCTOS</a>
+        <a href="mapa.html">UBICA TU MAXI</a>
+        <a href="reclamos.html">RECLAMOS</a>
+        <a href="nosotros.html">UNETE A NOSOTROS</a>
+    </div>
+
+        <br><h3 class="canal">CANAL DE RECLAMOS</h3>
+        <form>
+            <fieldset>
+			    <legend>Introducción</legend>
+			    <h4 class="intro">Nuestra Compañía se enorgullece de los valores que están en la base de su cultura: honestidad, crecimiento, cercanía, entusiasmo y perseverancia, los cuales, definen la manera de relacionarse y actuar, siempre en la búsqueda y corrección en todas sus prácticas. Por ello, con el objeto de mantener y proteger los más altos estándares de ética en los negocios e integridad en todo tipo de transacciones e interacciones, ponemos a disposición de sus clientes, proveedores, asesores, colaboradores y accionistas este canal de denuncias y consultas - desarrollado por Generación Empresarial - para que quienes estén en conocimiento de alguna actividad que pudiese implicar alguna transgresión a cualquier ley o normativa nacional, al Código de Conducta en los Negocios, y/o a cualquier política y procedimiento interno de la Compañía, puedan informarlo de forma segura, anónima y confidencial.</h4>
+                <h4><a class="extra1" href="#">Preguntas frecuentes</a></h4>
+            </fieldset>
+            <br><br>
+
+            <label>INGRESAR NUEVO RECLAMO O CONSULTA</label><br><br>
+                <h5>Código <input type="text" size="18" class="codigo" required></h5><br>
+                <h5>Contraseña <input type="text" size="18" required></h5><br>
+                <center><h6><a class="extra" href="#">Olvidé mi contraseña</a></h6></center>
+            <br><br>
+
+            <div class="detalle">
+                <label class="label1">Detalle del Reclamo/Queja, según indica el cliente:</label><br><br>
+                <div class="type">
+                    <label class="sub">Tipo</label><br><br>
+                        <input type="radio" name="type" value="reclamo" class="reclamo">Reclamo
+                        <input type="radio" name="type" value="queja" class="queja">Queja
+                    <br><br><br>
+                </div>
+                <label class="sub">Relacionado a</label><br><br>
+                    <input type="radio" name="produc" value="produc" class="produc">Producto
+                    <input type="radio" name="service" value="service" class="servicio">Servicio
+                <br><br><br>
+                <div class="type1">
+                    <label class="sub">Ingrese la fecha de reclamo/queja</label><br><br>
+                        <input type="date" name="fecha"><br><br>
+                </div>
+                <label class="sub">Por favor seleccione su distrito</label><br><br>
+                <select name="tienda" class="tienda">
+                    <option value="lamolina" selected="">La Molina</option>
+                    <option value="victoria">La Victoria</option>
+                    <option value="barranco">Barranco</option>
+                    <option value="lince">Lince</option>
+                    <option value="rimac">Rimac</option>
+                </select><br><br><br><br>
+            </div>
+            <div class="comentario">
+                <textarea name="comentario" rows="5" cols="80" required placeholder="Escribe tu reclamo/queja" class="mensaje"></textarea><br>
+                <input type="checkbox" name="tno" value="termino" class="terminos" required>He leído y acepto los <a class="extra" href="#">términos y condiciones</a><br>
+                <input type="submit" name="enviar" class="button" onclick="alert('Tu mensaje ha sido enviado')">
+            </div>
+            <br>
+        </form>
+    <div class="row">
+        <div class="footer">
+
+
+                <div class="iconos">
+
+                    <div class="iconos">
+                        <a href="https://www.facebook.com/MaxiahorroPE"><img class="footerimg" height="45" SRC="imagenes/facebook.png" width="30"></a>
+                    </div>
+
+                    <div class="iconos">
+                        <a href="https://www.youtube.com/channel/UCHgqh5jRmM-pXy5tlVYP32g"><img class="footerimg" height="45" SRC="imagenes/youtube.png" width="30"></a>
+                    </div>
+                    <div class="iconos">
+                        <a href="#"><img class="footerimg" height="45" SRC="imagenes/twitter.png" width="30"></a>
+                    </div>
+                    <div class="iconos">
+                        <a href="https://www.instagram.com/maxiahorrosanmarcos/?hl=es"><img class="footerimg" height="45" SRC="imagenes/instagram.png" width="30"></a>
+
+
+                    </div>
+
+				</div>
+
+				<div class="derechos">
+				Central telefónica / 700 6700<br> Maxi ahorro ® 2014 Todos los derechos reservados <div class="extra1">
+
+				</div>
+				</div>
+
+					<br>
+          <a class= "ted" href="index.html"><br>RECLAMOS</a>
+
+					<a class= "ted" href="index.html"><br> TRABAJA CON NOSOTROS</a>
+
+				    <a class="ted" href="index.html"> <br>VISÍTANOS</a>
+	</div>
+</body>
+</html>

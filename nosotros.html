@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+        $('.flexslider').flexslider();
+    });
+    </script>
+</head>
+<body>
+
+
+    <div class="header">
+        <div class="search">
+            <a href="#"><img class="micuenta" src="imagenes/micuenta.png"></a><br><br>
+            <div class="buscador">
+              <input type="text" size="12" required placeholder="Buscar"><br>
+                  <center><button class="bot1">Enviar</button></center>
+            </div>
+
+        </div>
+        <a href="index.html"><img id="maxi"  src="imagenes/cabezera.jpg"></a>
+
+    </div>
+
+    <div class="navbar">
+        <a href="index.html">INICIO</a>
+        <a href="Productos.html">PRODUCTOS</a>
+        <a href="mapa.html">UBICA TU MAXI</a>
+        <a href="reclamos.html">RECLAMOS</a>
+        <a href="nosotros.html">UNETE A NOSOTROS</a>
+    </div>
+    <div>
+        <h3 class="us">¿QUIENES SOMOS?</h3><br>
+        <h4 class="descrip1">Nuestra misión es ser una compañía cercana a nuestros clientes, simplificándoles la vida, con las mejores soluciones para su día a día.</h4>
+        <br>
+    </div>
+    <h3 class="you">¿TE GUSTAN LOS RETOS?</h3>
+    <h3 class="you1">Buscamos gente como tú!</h3>
+    <h4 class="descrip1">En Maxiahorro somo una empresa Peruana, líderes en venta de variedad de productos para todas las ocaciones. Estamos comprometidos con el medio ambiente y somos una empresa socialmente responsable</h4>
+    <h4 class="descrip1">Creemos que cada colaborador(a) es pieza fundamental para el logo de los resultados, por lo cual fomentamos el desarrollo de nuestra gente y tambien invitamos nuevos talentos a incorporarse a la familia</h4>
+
+
+    <h2 class="you">¡¡CONTÁCTANOS!!</h2>
+    <form class="contact" >
+        <label>Nombres</label><br><br>
+            <input type="text" size="22" required placeholder="Escribe tus nombres"><br><br>
+        <label>Apellidos</label><br><br>
+            <input type="text" size="22" required placeholder="Escribe tus apellidos"><br><br>
+        <label>E-mail</label><br><br>
+            <input type="email" size="22" required placeholder="Escribe tu e-mail"><br><br>
+        <label>Teléfono</label><br><br>
+            <input type="numero" size="22" required placeholder="Escribe tu teléfono"><br><br>
+        <label>Por favor seleccione su tienda preferida</label><br><br>
+            <select name="tienda" class="tienda">
+                <option value="lamolina" selected="">La Molina</option>
+                <option value="victoria">La Victoria</option>
+                <option value="barranco">Barranco</option>
+                <option value="lince">Lince</option>
+                <option value="rimac">Rimac</option>
+                <option value="chorrillos">Chorrillos</option>
+            </select><br><br>
+            <label>Puestos disponibles</label><br><br>
+            <input type="radio" name="type" value="miembro" class="puestos">Miembro de equipo
+            <input type="radio" name="type" value="volante" class="puestos">Volante<br><br>
+            <input type="radio" name="type" value="motorizado" class="puestos">Motorizado
+            <input type="radio" name="type" value="general" class="puestos">Equipo general<br><br>
+            <input type="radio" name="type" value="limpieza" class="puestos">Limpieza
+            <input type="radio" name="type" value="almacen" class="puestos">Almacén
+            <br><br>
+        <input type="submit" name="enviar" class="boton" onclick="alert('Tu solicitud ha sido enviado')">
+    </form>
+    <fieldset  class="descrip2">
+        <p>¡Si cuentas con tu CARNET DE SANIDAD, acercate con tu CV todos los Martes, Miercoles y Jueves de 10AM a 11AM!</p>
+        <p class="centro">¡TE ESPERAMOS!!</p>
+    </fieldset><br><br>
+    <div class="row">
+        <div class="footer">
+
+
+                <div class="iconos">
+
+                    <div class="iconos">
+                        <a href="https://www.facebook.com/MaxiahorroPE"><img class="footerimg" height="45" SRC="imagenes/facebook.png" width="30"></a>
+                    </div>
+
+                    <div class="iconos">
+                        <a href="https://www.youtube.com/channel/UCHgqh5jRmM-pXy5tlVYP32g"><img class="footerimg" height="45" SRC="imagenes/youtube.png" width="30"></a>
+                    </div>
+                    <div class="iconos">
+                        <a href="#"><img class="footerimg" height="45" SRC="imagenes/twitter.png" width="30"></a>
+                    </div>
+                    <div class="iconos">
+                        <a href="https://www.instagram.com/maxiahorrosanmarcos/?hl=es"><img class="footerimg" height="45" SRC="imagenes/instagram.png" width="30"></a>
+
+
+                </div>
+
+				</div>
+
+				<div class="derechos">
+				Central telefónica / 700 6700 <br> Maxi ahorro ® 2014 Todos los derechos reservados <div class="extra1">
+
+				</div>
+				</div>
+
+					<br>
+          <a class= "ted" href="index.html"><br>RECLAMOS</a>
+
+					<a class= "ted" href="index.html"><br> TRABAJA CON NOSOTROS</a>
+
+				    <a class="ted" href="index.html"> <br>VISÍTANOS</a>
+    </div>
+	</div>
+</body>
+</html>
